@@ -19,16 +19,19 @@ Instructions:
 ====
 **Prep**: Download, unzip  
 
-1. Download and install kb3050265 (Note: For W8 it's kb3050267):
-  * 32-bit: https://download.microsoft.com/download/E/D/0/ED0AEBFC-A0DB-487E-8A55-F1AD952BBC29/Windows6.1-KB3050265-x86.msu
-  * 64-bit: https://download.microsoft.com/download/E/9/7/E97EFDD9-053D-4C5B-96F4-F4928818C9A4/Windows6.1-KB3050265-x64.msu
+1. For a new Windows SP1 install, download and install these KB updates in the following order.
+ * [KB3050265](https://github.com/CodeMason/aegis-voat/raw/master/1-Windows6.1-KB3050265-x64.msu) (Note: For W8 it's KB3050267):
+ * [KB3065987](https://github.com/CodeMason/aegis-voat/raw/master/2-Windows6.1-KB3065987-v2-x64.msu)  
+ * [KB3102810](https://github.com/CodeMason/aegis-voat/raw/master/3-Windows6.1-KB3102810-x64.msu)  
+ * [KB3135445](https://github.com/CodeMason/aegis-voat/raw/master/4-Windows6.1-KB3135445-x64.msu)  
+ * [KB3138612](https://github.com/CodeMason/aegis-voat/raw/master/5-Windows6.1-KB3138612-x64.msu)  
 2. **Reboot**
 3. Run 'repairwindowsupdate.cmd' (right click, run as admin)
-4. Check for updates (On a new install, this can take several hours)
+4. Check for updates (On a new install, this can take a long time)
 5. Run Aegis (right click on aegis.cmd, click "run as administrator", follow on-screen instructions)  
 6. Install updates
 7. Reboot
-8. Repeat 4-7
+8. Repeat 4-7 every time you check for updates.
 
 
 
@@ -106,5 +109,3 @@ KB update description
 
 
 - Thanks to @alexzerg11, @allockse, @AxiomBreak, @elixxx, @erskine, @eSh, @GGLapkizzz, @ilikeskittles, @liquidinsects, @Magoo204, @Mixplate, @mythias, @PaulDG, @pstein, @RypeDub420, @spexdi, @tor11, @Umrtvovacz, @qzxq, @thequestion, @tor11, @tr3bg0d, @Umrtvovacz, @Voluptuous_Panda, and @Zaphain.
-
-- Visit https://tiny.cc/aegisvoat for additional details and latest information
