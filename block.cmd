@@ -12,7 +12,7 @@ FOR /F %%I IN (%~dp0block-ip.txt) DO (
 
 FOR /F %%I IN (%~dp0block-domain.txt) DO (
   findstr " %%I" %systemdrive%\windows\system32\drivers\etc\hosts >nul 2>&1
-  if %errorlevel% neq 0 (
+  if !errorlevel! neq 0 (
     echo 0.0.0.0 %%I >>%systemdrive%\windows\system32\drivers\etc\hosts
     echo  - blocked %%I
   )
