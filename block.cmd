@@ -1,4 +1,5 @@
 @echo off
+setlocal enableDelayedExpansion
 route print 2>nul >routes.tmp
 
 FOR /F %%I IN (%~dp0block-ip.txt) DO (
